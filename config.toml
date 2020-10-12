@@ -105,12 +105,6 @@ unsafe = true
                   ]
 
     [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
-
-    [[params.links]]
       service = "Facebook"
       icon = "fa-facebook"
       icon_pack = "fab"
