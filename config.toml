@@ -1,6 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "http://examplesite.org"
-title = "GreyNimbus"
+title = "shannonwadi"
+subtitle= "Location Waterfront"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -121,10 +122,13 @@ copyright = "Copyright &copy; 2020 [GreyNimbus](https://www.greynimbus.com) All 
     name = "About"
     url = "/about"
     weight = 4
-
+    [[menu.main]]
+    name = "Project"
+    URL = "project"
+    weight = 6
   [[menu.main]]
     name = "Gallery"
-    url = "#"
+    url = "/project"
     weight = 3
 
   [[menu.main]]
