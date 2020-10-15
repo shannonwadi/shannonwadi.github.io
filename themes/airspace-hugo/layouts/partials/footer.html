@@ -9,8 +9,23 @@
             			{{ end }}
 					</ul>
 				</div>
-				<p class="contact">Contact us : {{ site.Params.email | markdownify }}</p>
-				<p class="contact">Email : {{ site.Params.contactno | markdownify }}</p>
+				<div class="container" style="display:inline-block;">
+					<div style="display:inline;"> 
+					<ul class="social-icons" style="text-align: left">
+            			{{ range site.Params.social }}
+           					 <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            			{{ end }}
+         			 </ul>
+         			</div>
+         			<div style="display:inline;">
+         			 <ul class="contact" style="text-align: right">
+            			{{ range site.Params.contact }}
+           					 <li>{{ . }}</li>
+            			{{ end }}
+         			 </ul>
+         			</div>
+				</div>
+				
 				<p class="copyright">{{ site.Params.copyright | markdownify }}</p>
 			</div>
 		</div>

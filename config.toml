@@ -107,6 +107,7 @@ weight = 1
 copyright = "Copyright &copy; 2020 [GreyNimbus](https://www.greynimbus.com) All Rights Reserved"
 
 ################################ Contact Info ########################
+[[params.contact]]
 email = "shannonwadi@gmail.com"
 contactno = "9878654321"
 

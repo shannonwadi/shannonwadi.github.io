@@ -8,7 +8,7 @@ banner:
   button:
     enable : true
     label : "Discover Our Project"
-    link : "project"
+    link : "https://www.youtube.com/embed/J_Sa4wCbsDc"
 
 ############################# About #################################
 about:
@@ -48,6 +48,10 @@ portfolio:
 service:
   enable : true
   # service content comes from "data/*/service.yml" file
+
+############################# YouTube ############################
+youtube:
+  content: "https://www.youtube.com/embed/J_Sa4wCbsDc"
 
 
 ############################ call to action ###########################
