@@ -48,14 +48,16 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 
 #################### default parameters ################################
 [params]
-logo = "logo.png"
+logo = "Shannonwadi_logo_full_width.png"
+logo_width = "250px"
+
 # Meta data
 description = "This is meta description"
 author = "GreyNimbus"
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+location = "Gorai, Borivali, Maharashtra"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
