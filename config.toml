@@ -110,8 +110,12 @@ copyright = "Copyright &copy; 2020 [GreyNimbus](https://www.greynimbus.com) All 
 
 ################################ Contact Info ########################
 [[params.contact]]
-email = "shannonwadi@gmail.com"
-contactno = "9878654321"
+contacttype = "email"
+text = "shannonwadi@gmail.com"
+
+[[params.contact]]
+contacttype = "phone"
+text = "9878654321"
 
 ##############menu######################
 [menu]
