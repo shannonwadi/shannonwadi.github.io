@@ -29,7 +29,16 @@
 <br><br><br>
 <div id="iframe-wrapper" style="text-align: center;">
  <iframe width="1080" height="780" src="{{ $data.homepage.youtube.content }}">
- </iframe> 
+ </iframe>
+</div>
+
+<br><br><br>
+<div class="container">
+  <div class="block">
+    <div class="google-map">
+      <div class="map" id="map_canvas" data-latitude="{{ site.Params.gmap.map_latitude }}" data-longitude="{{ site.Params.gmap.map_longitude }}" data-marker="{{ site.Params.gmap.map_marker | relURL }}" data-marker-name="{{ site.Title }}"></div>
+    </div>
+  </div>
 </div>
 
 {{ if $data.homepage.about.enable }}
