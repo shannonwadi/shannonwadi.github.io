@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "http://examplesite.org"
+baseURL = "https://greynimbus.github.io/shannonwadi-live.github.io/"
 title = "Shannon Wadi"
 subtitle= "Location Waterfront"
 publishDir = "docs"
