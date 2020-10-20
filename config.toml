@@ -126,20 +126,16 @@ text = "9878654321"
 
   [[menu.main]]
       name = "Services"
-      url = "/about"
+      url = "/service"
       weight = 2
 
   [[menu.main]]
     name = "About"
     url = "/about"
     weight = 4
-    [[menu.main]]
-    name = "Project"
-    URL = "project"
-    weight = 6
   [[menu.main]]
     name = "Gallery"
-    url = "/project"
+    url = "/gallery"
     weight = 3
 
   [[menu.main]]
