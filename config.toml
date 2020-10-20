@@ -2,6 +2,7 @@
 baseURL = "http://examplesite.org"
 title = "Shannon Wadi"
 subtitle= "Location Waterfront"
+publishDir = "docs"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
