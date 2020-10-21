@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://shannonwadi.github.io/"
+baseURL = "https://shannonwadi.github.io"
 title = "Shannon Wadi"
 subtitle= "Location Waterfront"
 publishDir="docs"
