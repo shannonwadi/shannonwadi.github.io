@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>{{ .title | markdownify }}</h1>        
+          <h1>{{ .title | markdownify }}</h1>
         </div>
       </div>
     </div>
@@ -53,12 +53,6 @@
 {{ end }}
 {{ end }}
 
-<!-- YouTube Window -->
-<div id="iframe-wrapper" style="text-align: center;">
- <iframe width="1080" height="780" src="{{ $data.homepage.youtube.content }}">
- </iframe>
-</div>
-<!-- /YouTube Window -->
 
 {{ if $data.homepage.portfolio.enable }}
 {{ with $data.homepage.portfolio }}
@@ -101,6 +95,13 @@
 {{ partial "cta.html" . }}
 {{ end }}
 <!-- /Call to action -->
+<!-- YouTube Window -->
+<br>
+<div id="iframe-wrapper" style="text-align: center;">
+ <iframe width="1080" height="700" src="{{ $data.homepage.youtube.content }}">
+ </iframe>
+</div>
+<!-- /YouTube Window -->
 
 {{ if $data.homepage.funfacts.enable }}
 {{ with $data.homepage.funfacts }}

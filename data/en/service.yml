@@ -10,11 +10,11 @@ about:
     - title : "Food And Beverages"
       content : "Breakfast, lunch, dinner…it really doesn't matter as long as you eat and sip something.
 We offer our customers a wide range of Indian and Chinese cuisine options to choose from, alongside an aerated beverage or an energy drink."
-      image : "resort_images/room.png"
+      image : "images/food1.jpg"
 
     - title : "Rooftop Terrace Beach View"
       content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view. One can imagine itself having a candle light dinner while watching the sea rise, all under the blanket of glowing stars."
-      image : "resort_images/open terrace.png"
+      image : "images/rooftop-beach.jpg"
 
     - title : "Candle Light Dinner"
       content : "‘The most beautiful things are not associated with money, but they are moments and memories. If we don’t cherish them, they tend to pass you by’.
@@ -23,11 +23,11 @@ You can create your moments and memories with your beloved’s over a candle lig
 
     - title : "Dry Cleaning"
       content : "Paid Laundry service available on demand."
-      image : "resort_images/Rooftop beach terrace/roof1.png"
+      image : "images/drycleaning.jpg"
 
     - title : "Wifi"
       content : "We don’t want our customers to miss out connecting to the virtual world. For the same we offer complimentary WIFI service on demand."
-      image : "resort_images/Rooftop beach terrace/roof1.png"
+      image : "images/wifi.jpg"
 
     - title : "Parking"
       content : "Complimentary parking available for all types of passenger vehicles."

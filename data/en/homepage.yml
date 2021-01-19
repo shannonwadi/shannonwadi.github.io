@@ -1,9 +1,9 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "resort_images/Beach/beach2.png"
+  bg_image : "resort_images/Hotel/hotel1.jpg"
   bg_overlay : true
-  title : "getaway to remember"
+  title : "Location Waterfront"
   content : "Shannon Wadi"
   button:
     enable : true
@@ -16,7 +16,7 @@ about:
   title : "About Us"
   description : "We're part of your holiday. A part that still sticks with you even though you're going for the next tour."
   content : "To choose us, under a spell of sea, beach and heat, is to create lifetime memories. It all started back in April, 2008 with a vision to revisit the long-established hospitality of the country in the outskirts of the financial capital, Mumbai. We're going to say that visiting Gorai means staying at the Shannon Wadi, Gorai. We let you taste any temptation ranging from gypsy shopping to some Water sports, the offerings of the city are large and enticing. As soon as night descends over the beach, our Hotel turns itself into a place of silence and relaxation."
-  image : "images/wrapper-img.png"
+  image : "images/about-wave.jpg"
 
 
 ######################### Portfolio ###############################
@@ -53,11 +53,11 @@ youtube:
 cta:
   enable : true
   bg_image : "images/call-to-action-bg.jpg"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title : "A step away from the ocean"
+  content : ""
   button:
     enable : true
-    label : "Tell Us Your Story"
+    label : "Get in touch with Us"
     link : "contact"
 
 ############################# Funfacts ###############################
