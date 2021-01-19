@@ -47,50 +47,11 @@
 {{ end }}
 
 <!-- YouTube Window -->
-<br><br><br>
 <div id="iframe-wrapper" style="text-align: center;">
  <iframe width="1080" height="780" src="{{ $data.homepage.youtube.content }}">
  </iframe>
 </div>
 <!-- /YouTube Window -->
-
-<!-- Geolocation -->
-<br><br><br>
-<div class="container">
-  <div class="block">
-    <div class="google-map">
-      <div class="map" id="map_canvas" data-latitude="{{ site.Params.gmap.map_latitude }}" data-longitude="{{ site.Params.gmap.map_longitude }}" data-marker="{{ site.Params.gmap.map_marker | relURL }}" data-marker-name="{{ site.Title }}"></div>
-    </div>
-  </div>
-</div>
-<!-- /Geolocation -->
-
-{{ if $data.homepage.about.enable }}
-{{ with $data.homepage.about }}
-<!-- about -->
-<section class="about section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>{{ .title | markdownify }}</h2>
-            <p>{{ .description | markdownify }}</p>
-          </div>
-          <p>{{ .content | markdownify }}</p>
-        </div>
-      </div>
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /about -->
-{{ end }}
-{{ end }}
 
 {{ if $data.homepage.portfolio.enable }}
 {{ with $data.homepage.portfolio }}
@@ -119,8 +80,16 @@
 {{ partial "service.html" . }}
 {{ end }}
 <!-- /service -->
-
-<!-- Call to action -->
+<!-- Geolocation -->
+<div class="container">
+  <div class="block">
+    <div class="google-map">
+      <div class="map" id="map_canvas" data-latitude="{{ site.Params.gmap.map_latitude }}" data-longitude="{{ site.Params.gmap.map_longitude }}" data-marker="{{ site.Params.gmap.map_marker | relURL }}" data-marker-name="{{ site.Title }}"></div>
+    </div>
+  </div>
+</div>
+<!-- /Geolocation -->
+<!-- Call to action
 {{ if $data.homepage.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}

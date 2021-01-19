@@ -1,7 +1,7 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "final_logo_Beach(10).png"
+  bg_image : "resort_images/Beach/beach1.png"
   bg_overlay : true
   title : ""
   content : ""
@@ -14,19 +14,14 @@ banner:
 about:
   enable : true
   title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
+  description : "We're part of your holiday. A part that still sticks with you even though you're going for the next tour."
+  content : "To choose us, under a spell of sea, beach and heat, is to create lifetime memories. It all started back in April, 2008 with a vision to revisit the long-established hospitality of the country in the outskirts of the financial capital, Mumbai. We're going to say that visiting Gorai means staying at the Shannon Wadi, Gorai. We let you taste any temptation ranging from gypsy shopping to some Water sports, the offerings of the city are large and enticing. As soon as night descends over the beach, our Hotel turns itself into a place of silence and relaxation."
   image : "images/wrapper-img.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
-  enable : true
+  enable : false
   bg_image : "images/featue-bg.jpg"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
@@ -67,7 +62,7 @@ cta:
 
 ############################# Funfacts ###############################
 funfacts:
-  enable : true
+  enable : false
   title : "Fun Facts About Us"
   description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"

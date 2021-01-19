@@ -1,51 +1,37 @@
 ########################### about service #############################
 about:
   enable : true
-  services : 
+  services :
     - title : "Lodging"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
+      content : "Firstly, Our rooms are deeply sanitized and kept tidy as to maintain health and safety standards. We provide our customers with 24hr stay, 12hr stay and even customized hourly basis stay. Our rooms are equipped with Television service, Water heating service, One Dinning Table and a comfortable bed to relax on.
+"
       image : "resort_images/room.png"
 
     - title : "Food And Beverages"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
+      content : "Breakfast, lunch, dinner…it really doesn't matter as long as you eat and sip something.
+We offer our customers a wide range of Indian and Chinese cuisine options to choose from, alongside an aerated beverage or an energy drink."
       image : "resort_images/room.png"
 
-    - title : "Open Dining"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
+    - title : "Rooftop Terrace Beach View"
+      content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view. One can imagine itself having a candle light dinner while watching the sea rise, all under the blanket of glowing stars."
       image : "resort_images/open terrace.png"
 
-    - title : "Parking"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
-      image : "resort_images/courtyard.png"
+    - title : "Candle Light Dinner"
+      content : "‘The most beautiful things are not associated with money, but they are moments and memories. If we don’t cherish them, they tend to pass you by’.
+You can create your moments and memories with your beloved’s over a candle light dinner every evening at Shannon wadi."
+      image : "resort_images/Rooftop beach terrace/roof1.png"
 
+    - title : "Dry Cleaning"
+      content : "Paid Laundry service available on demand."
+      image : "resort_images/Rooftop beach terrace/roof1.png"
+
+    - title : "Wifi"
+      content : "We don’t want our customers to miss out connecting to the virtual world. For the same we offer complimentary WIFI service on demand."
+      image : "resort_images/Rooftop beach terrace/roof1.png"
+
+    - title : "Parking"
+      content : "Complimentary parking available for all types of passenger vehicles."
+      image : "resort_images/Parking/parking1.png"
 ########################## featured service ############################
 featured_service:
   enable : true
@@ -55,67 +41,56 @@ featured_service:
       icon : "ion-erlenmeyer-flask"
       color : "primary"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
-      
+
     # featured service item loop
     - name : "Product Branding"
       icon : "ion-leaf"
       color : "primary-dark"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
-      
+
     # featured service item loop
     - name : "Game Development"
       icon : "ion-lightbulb"
       color : "primary-darker"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
 
-      
+
 ############################# Service ###############################
 service:
   enable : true
   title : "Our Services"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  description : ""
   service_item:
     # service item loop
-    - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Branding
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  - icon : "ion-ios-home" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Lodging"
+    content : "Our rooms are equipped with Television service, Water heating service, a dining table and a comfortable bed to relax on."
 
-    # service item loop
-    - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Web Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  # feature item loop
+  - icon : "ion-ios-wineglass" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Food and Beverages"
+    content : "We offer our customers a wide range of Indian and Chinese cuisine options to choose from alongside an aerated beverage"
 
-    # service item loop
-    - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: App Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  # feature item loop
+  - icon : "ion-ios-eye" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Rooftop view"
+    content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view."
 
-    # service item loop
-    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Start Up
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  # feature item loop
+  - icon : "ion-android-bar" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Candle Light Dinner"
+    content : "You can create your moments and memories with your beloved’s over a candle light dinner every evening at Shannon wadi."
 
-    # service item loop
-    - icon : ion-headphone #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Logo Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  # feature item loop
+  - icon : "ion-wifi" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Wifi"
+    content : "We don’t want our customers to miss out connecting to the virtual world. "
 
-    # service item loop
-    - icon : ion-leaf #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Development
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  # feature item loop
+  - icon : "ion-model-s" #ionicon pack v2 : https://ionicons.com/v2/
+    name : "Parking"
+    content : "Complimentary parking available for all types of passenger vehicles."
 
-    # service item loop
-    - icon : ion-planet #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : ion-earth #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
 ############################# call to action #################################
 cta:
   enable : true

@@ -2,50 +2,15 @@
 about:
   enable : true
   image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
-          iure officiis facere vitae itaque.
-
-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-          velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  title : "We're part of your holiday."
+  content : "A part that still sticks with you even though you're going for the next tour. To choose us, under a spell of sea, beach and heat, is to create lifetime memories. It all started back in April, 2008 with a vision to revisit the long-established hospitality of the country in the outskirts of the financial capital, Mumbai. We're going to say that visiting Gorai means staying at the Shannon Wadi, Gorai. We let you taste any temptation ranging from gypsy shopping to some Water sports, the offerings of the city are large and enticing. As soon as night descends over the beach, our Hotel turns itself into a place of silence and relaxation."
 
   button:
-    enable : true
+    enable : false
     label : "Download Company Profile"
     link : "#"
 
-  funfacts:
-    # funfacts loop
-    - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Completed Projects"
-      count : "349"
 
-    # funfacts loop
-    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Lines Of Code"
-      count : "35000"
-
-    # funfacts loop
-    - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "70"
-
-    # funfacts loop
-    - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "10"
-
-    # funfacts loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "75"
-
-    # funfacts loop
-    - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "20"
 
 ################################ feature #####################################
 features:
@@ -53,43 +18,43 @@ features:
   title : "We are indepented Design & Development Agency"
   feature_item:
     # feature item loop
-    - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "IOS App Development"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-ios-home" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Lodging"
+      content : "Our rooms are equipped with Television service, Water heating service, a dining table and a comfortable bed to relax on."
 
     # feature item loop
-    - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "App Secutity"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-ios-wineglass" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Food and Beverages"
+      content : "We offer our customers a wide range of Indian and Chinese cuisine options to choose from alongside an aerated beverage"
 
     # feature item loop
-    - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Games Development"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-ios-eye" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Rooftop terrace beach view"
+      content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view."
 
     # feature item loop
-    - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Animation and Editing"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-android-bar" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Candle Light Dinner"
+      content : "You can create your moments and memories with your beloved’s over a candle light dinner every evening at Shannon wadi."
 
     # feature item loop
-    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "UI/UX Design"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-wifi" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Wifi"
+      content : "We don’t want our customers to miss out connecting to the virtual world. "
 
     # feature item loop
-    - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Branding"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : "ion-model-s" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Parking"
+      content : "Complimentary parking available for all types of passenger vehicles."
 
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
     # tab item loop
     - name : "Vision"
@@ -127,5 +92,5 @@ mission_vision:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable : false
   # call to action content comes from "data/*/homepage.yml"

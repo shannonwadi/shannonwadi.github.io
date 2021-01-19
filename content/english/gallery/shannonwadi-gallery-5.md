@@ -1,6 +1,6 @@
 ---
-title: "Rio Furniture"
+title: "Shannonwadi5"
 draft: false
-image : "resort_images/courtyard.png"
-category: "Courtyard"
+image : "resort_images/Hotel/hotel5.png"
+category: "Hotel"
 ---

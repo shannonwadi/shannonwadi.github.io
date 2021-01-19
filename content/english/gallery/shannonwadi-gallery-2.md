@@ -1,6 +1,6 @@
 ---
-title: "Rio Furniture"
+title: "Shannonwadi2"
 draft: false
-image : "resort_images/open terrace.png"
-category: "Open restaurant"
+image : "resort_images/Hotel/hotel2.png"
+category: "Hotel"
 ---

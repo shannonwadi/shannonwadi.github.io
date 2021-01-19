@@ -56,9 +56,9 @@ logo_width = "250px"
 description = "This is meta description"
 author = "GreyNimbus"
 # Contact Information
-mobile = "0124857985320"
+mobile = "+91 91366 22218"
 email = "demo@email.com"
-location = "Gorai, Borivali, Maharashtra"
+location = "Shannon wadi, Gorai Beach, Gorai Village, Borivali (W), Mumbai: 400091"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
