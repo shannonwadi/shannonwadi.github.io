@@ -57,7 +57,7 @@ description = "This is meta description"
 author = "GreyNimbus"
 # Contact Information
 mobile = "+91 91366 22218"
-email = "demo@email.com"
+email = "shannonwadi@gmail.com"
 location = "Shannon wadi, Gorai Beach, Gorai Village, Borivali (W), Mumbai: 400091"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
@@ -116,7 +116,7 @@ text = "shannonwadi@gmail.com"
 
 [[params.contact]]
 contacttype = "phone"
-text = "9878654321"
+text = "+91 91366 22218"
 
 ##############menu######################
 [menu]
