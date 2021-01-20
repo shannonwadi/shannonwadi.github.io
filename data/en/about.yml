@@ -29,7 +29,7 @@ features:
 
     # feature item loop
     - icon : "ion-ios-eye" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Rooftop terrace beach view"
+      name : "Rooftop Beach Terrace"
       content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view."
 
     # feature item loop
