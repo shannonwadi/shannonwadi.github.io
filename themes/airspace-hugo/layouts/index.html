@@ -53,7 +53,6 @@
 {{ end }}
 {{ end }}
 
-
 {{ if $data.homepage.portfolio.enable }}
 {{ with $data.homepage.portfolio }}
 <!-- portfolio -->
@@ -75,7 +74,28 @@
 <!-- /portfolio -->
 {{ end }}
 {{ end }}
+<!--gallery-->
+<!-- Set width and height -->
 
+<section class="">
+    <div class="container">
+      <div class="block">
+        <div class="section-title">
+          <a href="/gallery" style="color:black"><h2>Gallery</h2>
+           <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <div class="col-md-6">
+                <img src="/resort_images/courtyard.png" class="img-responsive">
+            </div>
+            <div class="col-md-6">
+                <img src="/resort_images/open terrace entrance.png" class="img-responsive">
+            </div>
+            </a>
+        </div>
+      </div>
+    </div>
+
+</section>
+<!--gallery ends-->
 <!-- Service -->
 {{ if $data.homepage.service.enable }}
 {{ partial "service.html" . }}
