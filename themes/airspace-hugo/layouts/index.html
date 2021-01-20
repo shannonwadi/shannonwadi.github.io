@@ -77,7 +77,7 @@
 <!--gallery-->
 <!-- Set width and height -->
 
-<section class="">
+<section class="section">
     <div class="container">
       <div class="block">
         <div class="section-title">
@@ -102,6 +102,7 @@
 {{ end }}
 <!-- /service -->
 <!-- Geolocation -->
+<section class="section">
 <div class="container">
   <div class="block">
     <div class="google-map">
@@ -109,6 +110,7 @@
     </div>
   </div>
 </div>
+</section>
 <!-- /Geolocation -->
 <!-- Call to action
 {{ if $data.homepage.cta.enable }}
@@ -116,11 +118,13 @@
 {{ end }}
 <!-- /Call to action -->
 <!-- YouTube Window -->
+<section class="section">
 <br>
 <div id="iframe-wrapper" style="text-align: center;">
  <iframe width="1080" height="700" src="{{ $data.homepage.youtube.content }}">
  </iframe>
 </div>
+</section>
 <!-- /YouTube Window -->
 
 {{ if $data.homepage.funfacts.enable }}

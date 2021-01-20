@@ -10,27 +10,25 @@
 					</ul>
 				</div>
 				<div class="container" style="display:inline-block;">
-						<table width="100%">
-							<tr>
-                <td>
-								<ul class="social-icons" td style="text-align:left">
-								 	{{ range site.Params.social }}
-											<li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-								 		{{ end }}
-									</ul>
-                </td>
-                <td style="padding-top:40px; text-align:right">
-								  <ul class="contact">
-										<li>
-							 	 	 {{ range site.Params.contact }}
-										{{ .text }}&nbsp;&nbsp;
-							   	{{ end }}
-									</li>
-								</ul>
-								</td>
-							</tr>
-						</table>
-         	</div>
+					<div class="col-md-6">
+						<ul class="social-icons" style="text-align:center;">
+							{{ range site.Params.social }}
+							<li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+							{{ end }}
+						</ul>
+				                			
+				    </div>
+
+				    <div class="col-md-6" style="display:inline-block; padding-top: 45px">
+						<ul class="contact">
+							<li>
+								{{ range site.Params.contact }}
+								{{ .text }}&nbsp;&nbsp;
+								{{ end }}
+							</li>
+						</ul>
+					</div>
+				</div>
 				<p class="copyright">{{ site.Params.copyright | markdownify }}</p>
 			</div>
 		</div>
