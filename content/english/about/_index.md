@@ -1,5 +1,5 @@
 ---
 title: "About Us"
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "resort_images/Hotel/hotel1.jpg"
 ---
