@@ -143,6 +143,11 @@ text = "+91 91366 22218"
     name = "Contact"
     url = "/contact"
     weight = 5
+
+    [[menu.main]]
+      name = "Terms and Policies"
+      url = "/terms"
+      weight = 6
 ######################### english navigation #############################
 # main menu
 # [[Languages.en.menu.main]]

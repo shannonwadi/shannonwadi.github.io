@@ -1,0 +1,88 @@
+################################## About #####################################
+terms:
+  enable : true
+  title : "Dear guests, To ensure safety and comfort of the Hotel guests during their stay, we have clarified certain guidelines below:"
+  content : "A part that still sticks with you even though you're going for the next tour. To choose us, under a spell of sea, beach and heat, is to create lifetime memories. It all started back in April, 2008 with a vision to revisit the long-established hospitality of the country in the outskirts of the financial capital, Mumbai. We're going to say that visiting Gorai means staying at the Shannon Wadi, Gorai. We let you taste any temptation ranging from gypsy shopping to some Water sports, the offerings of the city are large and enticing. As soon as night descends over the beach, our Hotel turns itself into a place of silence and relaxation."
+
+  button:
+    enable : false
+    label : "Download Company Profile"
+    link : "#"
+
+
+################################ feature #####################################
+rules:
+  enable : true
+  feature_item:
+    # feature item loop
+    - name : "As per the state government notification to all the Hoteliers – it is mandatory that all guests have to carry their photo identity proof at the time of check-in."
+
+    # feature item loop
+    - name : "The Hotel Management will not be responsible for the loss or damage to any personal belongings left unattended in the Hotel premises."
+    # feature item loop
+    - name : "Government identification cards are mandatory. We reserve the right to deny any service to Guests without valid identification."
+    # feature item loop
+    - name : "Guests are requested to lock their room when absent inside."
+    # feature item loop
+    - name : "Disturbing other guests is not allowed. Hotel keeps the right to refuse further hospitality to the guests who disturbs other guests or on other way disrespects House Rules."
+    # feature item loop
+    - name : "Possession and consumption of illegal and narcotic substances, explosives, weapons, inflammable materials or other dangerous chemicals inside the hotel premises is restricted. If found with any mentioned previously, the guest is solely responsible for the circumstances and its possession."
+    # feature item loop
+    - name : "For any damage caused by the guest to the hotel property, the guest is due to cover the cost of  damage to the Hotel Management."
+    # feature item loop
+    - name : "For First - Aid assistance, please contact the hotel management."
+    # feature item loop
+    - name : "Visitors are strictly not allowed inside the Guests room."
+
+    - name : "In case of cancellation of further Guest stay by the Hotel caused by misbehavior and disrespect of Hotel Rules, Hotel reserves the right to charge for full length of stay as per reservation."
+
+    - name : "We assume that the guests are familiarized and fully understand the hotel rules at the beginning of their stay."
+
+    - name : "If you have any suggestion on hotel service or if you have any technical problem in your room, please feel free to inform us at your earliest convenience."
+
+#################################### testimonial & mission vision #######################################
+testimonial:
+  enable : false
+  # testimonial content comes from "data/*/homepage.yml" file
+
+mission_vision:
+  enable : false
+  tabs:
+    # tab item loop
+    - name : "Vision"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+
+    # tab item loop
+    - name : "Mission"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+
+    # tab item loop
+    - name : "Approach"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+
+
+############################# call to action #################################
+cta:
+  enable : false
+  # call to action content comes from "data/*/homepage.yml"
