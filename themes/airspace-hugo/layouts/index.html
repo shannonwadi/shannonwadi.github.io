@@ -118,13 +118,12 @@
 {{ end }}
 <!-- /Call to action -->
 <!-- YouTube Window -->
-<section class="section">
-<br>
-<div id="iframe-wrapper" style="text-align: center;">
- <iframe width="1080" height="700" src="{{ $data.homepage.youtube.content }}">
+<div class="container">
+<div class="iframecontainer">
+ <iframe class="responsive-iframe" height="500" width="100%" src="{{ $data.homepage.youtube.content }}">
  </iframe>
-</div>
-</section>
+</div></div>
+
 <!-- /YouTube Window -->
 
 {{ if $data.homepage.funfacts.enable }}
