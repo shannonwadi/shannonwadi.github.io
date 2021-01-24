@@ -81,11 +81,11 @@ link = "contact"
 # google map
 [params.gmap]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDj716CasfMvHIGaAAci3k1PvHhBKaaVvg&libraries=places"
 map_latitude = "19.2455995"
 map_longitude =  "72.7820409"
 map_marker = "images/marker.png"
-
+#AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU
 
 ############################# social site ########################
 [[params.social]]
@@ -107,16 +107,21 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [GreyNimbus](https://www.greynimbus.com) All Rights Reserved"
+copyright = "Copyright &copy; 2020 | Developed by [Jason](https://www.facebook.com/jazz94/) and [Yati](https://www.facebook.com/kilmyster) | All Rights Reserved"
 
 ################################ Contact Info ########################
+[[params.contact]]
+contacttype = "Location"
+text = "Shannon wadi, Gorai Beach, Gorai Village, Borivali (W), Mumbai:400091"
+
 [[params.contact]]
 contacttype = "email"
 text = "shannonwadi@gmail.com"
 
-[[params.contact]]
-contacttype = "phone"
-text = "+91 91366 22218"
+#[[params.phonedetails]]
+#contacttype = "phone"
+#text = "+91 91366 22218"
+
 
 ##############menu######################
 [menu]

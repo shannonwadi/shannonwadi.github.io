@@ -16,16 +16,19 @@
 							<li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 							{{ end }}
 						</ul>
-				                			
+
 				    </div>
 
 				    <div class="col-md-6" style="display:inline-block; padding-top: 45px">
 						<ul class="contact">
 							<li>
 								{{ range site.Params.contact }}
-								{{ .text }}&nbsp;&nbsp;
+								{{ .text }}<br>
 								{{ end }}
 							</li>
+							<li>
+								<b>{{ site.Params.mobile}}</b>
+								</li>
 						</ul>
 					</div>
 				</div>
