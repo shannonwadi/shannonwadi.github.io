@@ -5,7 +5,7 @@ about:
     - title : "Lodging"
       content : "Firstly, Our rooms are deeply sanitized and kept tidy as to maintain health and safety standards. We provide our customers with 24hr stay, 12hr stay and even customized hourly basis stay. Our rooms are equipped with Television service, Water heating service, One Dinning Table and a comfortable bed to relax on.
 "
-      image : "resort_images/Lodging/lodging1.png"
+      image : "resort_images/banner/lodging1.png"
 
     - title : "Food And Beverages"
       content : "Breakfast, lunch, dinner…it really doesn't matter as long as you eat and sip something.
@@ -14,12 +14,12 @@ We offer our customers a wide range of Indian and Chinese cuisine options to cho
 
     - title : "Rooftop Terrace Beach View"
       content : "Our hotel is mostly complemented for its creatively planned and built open terrace with a fantastic 180 degree beach view. One can imagine itself having a candle light dinner while watching the sea rise, all under the blanket of glowing stars."
-      image : "images/rooftop-beach.jpg"
+      image : "resort_images/banner/rooftop-beach.jpg"
 
     - title : "Candle Light Dinner"
       content : "‘The most beautiful things are not associated with money, but they are moments and memories. If we don’t cherish them, they tend to pass you by’.
 You can create your moments and memories with your beloved’s over a candle light dinner every evening at Shannon wadi."
-      image : "resort_images/Rooftop beach terrace/roof1.png"
+      image : "resort_images/banner/roof1.png"
 
     - title : "Dry Cleaning"
       content : "Paid Laundry service available on demand."
