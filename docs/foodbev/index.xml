@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food and Beverages on Shannon Wadi</title>
+    <link>https://shannonwadi.github.io/foodbev/</link>
+    <description>Recent content in Food and Beverages on Shannon Wadi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2020 | Developed by [Jason](https://www.facebook.com/jazz94/) and [Yati](https://www.facebook.com/kilmyster) | All Rights Reserved</copyright>
+    
+	<atom:link href="https://shannonwadi.github.io/foodbev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

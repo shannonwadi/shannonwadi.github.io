@@ -1,0 +1,233 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+
+{{ if $data.terms.terms.enable }}
+{{ with $data.terms.terms }}
+<section class="about section" style="padding:50px 0 0 0">
+  <div class="container">
+    <div class="row">
+      <h2 align="center">Veg Menu</h2><br>
+      <div class="col-md-6">
+        <table width="90%" border="0" align="center">
+          <tr><th width=80%>STARTERS</th><th>RATE</th><tr>
+            <tr><td>Veg Crispy</td><td>160</td>
+            <tr><td>Veg Chilly Dry</td><td>160</td>
+            <tr><td>Veg Manchurian Dry</td><td>160</td>
+            <tr><td>Veg Manchurian Gravy</td><td>180</td>
+            <tr><td>Veg Sezwen Dry</td><td>160</td>
+            <tr><td>Paneer Crispy Dry</td><td>190</td>
+            <tr><td>Paneer Crispy</td><td>190</td>
+            <tr><td>Paneer 65</td><td>190</td>
+            <tr><td>Mix Veg Pakoda</td><td>100</td>
+            <tr><td>Veg Chinese Bhel</td><td>130</td>
+              <tr><td>&nbsp;</td></tr>
+            <tr><th>SOUPS</th></tr>
+            <tr><td>Veg Noodles Soup</td><td>110</td>
+            <tr><td>Veg Manchow Soup</td><td>110</td>
+            <tr><td>Veg Hot and Sour Soup</td><td>110</td>
+              <tr><td>&nbsp;</td></tr>
+            <tr><th>Rice</th></tr>
+            <tr><td>Veg Fried Rice</td><td>130</td>
+            <tr><td>Veg Schezwan Rice</td><td>140</td>
+            <tr><td>Veg Hong Kong Rice</td><td>140</td>
+            <tr><td>Veg Singapore Rice</td><td>140</td>
+            <tr><td>Veg Triple Schezwan Rice</td><td>160</td>
+            <tr><td>Veg Manchurian Rice</td><td>160</td>
+            <tr><td>Veg Biryani</td><td>160</td>
+            <tr><td>Veg Pulav</td><td>160</td>
+            <tr><td>Paneer Biryani</td><td>200</td>
+            <tr><td>Paneer Pulav</td><td>190</td>
+            <tr><td>Green Peas Pulav</td><td>160</td>
+            <tr><td>Jeera Rice</td><td>120</td>
+            <tr><td>Steam Rice</td><td>110</td>
+            <tr><td>Dal Khicadi</td><td>160</td>
+
+              <tr><td>&nbsp;</td></tr>
+            <tr><th>Noodles</th></tr>
+            <tr><td>Veg Hakka Noodle</td><td>130</td>
+            <tr><td>Veg Schezwan Noodle</td><td>140</td>
+            <tr><td>Veg Hong Kong Noodle</td><td>140</td>
+            <tr><td>Veg Singapore Noodle</td><td>140</td>
+            <tr><td>Veg Triple Noodle</td><td>160</td>
+            <tr><td>Veg Manchurian Noodle</td><td>160</td>
+              <tr><td>&nbsp;</td></tr>
+
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table width="90%" border="0" align="center">
+          <tr><th width=80%>INDIAN CUISINE</th><th>RATE</th><tr>
+            <tr><td>Dal Fry Dal Tadka</td><td>130</td>
+            <tr><td>Veg Kadai</td><td>140</td>
+            <tr><td>Veg Kolhapuri</td><td>160</td>
+            <tr><td>Veg Makhanwala</td><td>160</td>
+            <tr><td>Veg Handi</td><td>160</td>
+            <tr><td>Mix Veg</td><td>160</td>
+            <tr><td>Paneer Kadai </td><td>150</td>
+            <tr><td>Paneer Mutter</td><td>190</td>
+            <tr><td>Paneer Handi</td><td>190</td>
+            <tr><td>Paneer Tikka Masala</td><td>220</td>
+            <tr><td>Paneer Masala</td><td>200</td>
+            <tr><td>Paneer Butter Masala</td><td>200</td>
+
+            <tr><td>&nbsp;</td></tr>
+            <tr><th>BREAKFAST</th></tr>
+            <tr><td>Poha</td><td>80</td>
+            <tr><td>Upma</td><td>60</td>
+            <tr><td>Tea</td><td>20</td>
+            <tr><td>Coffee</td><td>30</td>
+
+              <tr><td>&nbsp;</td></tr>
+              <tr><th>BREAD</th></tr>
+              <tr><td>Chapati</td><td>15</td>
+              <tr><td>Butter Chapati Fried/Roasted Papad</td><td>20</td>
+              <tr><td>Masala Papad</td><td>40</td>
+              <tr><td>Green Salad</td><td>60</td>
+              <tr><td>Raita</td><td>50</td>
+              <tr><td>Pav</td><td>10</td>
+
+          </table>
+        <!--<br>{{ .content | markdownify }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
+        {{ end }}
+        {{ end }}-->
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <h2 align="center">Non-Veg Menu</h2><br>
+
+      <div class="col-md-6">
+        <table width="90%" border="0" align="center">
+          <tr><th width=80%>STARTERS</th><th>RATE</th><tr>
+            <tr><td>Chicken 65</td><td>180</td>
+            <tr><td>Chicken Crispy</td><td>180</td>
+            <tr><td>Chicken Lollipop</td><td>190</td>
+            <tr><td>Chicken Lollipop Masala Dry/Gravy</td><td>190</td>
+            <tr><td>Apple Chicken</td><td>190</td>
+            <tr><td>Chicken Manchurian Dry/Gravy</td><td>180</td>
+            <tr><td>Chicken Chilly Dry</td><td>180</td>
+            <tr><td>Chicken Garlic Dry</td><td>180</td>
+            <tr><td>Chicken Ginger Dry</td><td>180</td>
+            <tr><td>Chicken Schezwan Dry/Gravy</td><td>190</td>
+            <tr><td>Chicken Chinese Bhel</td><td>150</td>
+            <tr><td>Bhangada Fry</td><td>180</td>
+            <tr><td>Prawns Fry</td><td>230</td>
+            <tr><td>Prawns Rava Fry</td><td>250</td>
+            <tr><td>Prawns Koliwad</td><td>250</td>
+            <tr><td>Pomfret Fry</td><td>APS</td>
+            <tr><td>Pomfret Rava Fry</td><td>APS</td>
+            <tr><td>Bombil Fry</td><td>APS</td>
+
+              <tr><td>&nbsp;</td></tr>
+            <tr><th>SOUPS</th></tr>
+            <tr><td>Chicken Noodles Soup</td><td>130</td>
+            <tr><td>Chicken Manchow Soup</td><td>130</td>
+            <tr><td>Chicken Hot and Sour Soup</td><td>130</td>
+              <tr><td>&nbsp;</td></tr>
+            <tr><th>Rice</th></tr>
+            <tr><td>Egg Fried Rice</td><td>130</td>
+            <tr><td>Egg Schezwan Rice</td><td>140</td>
+            <tr><td>Egg Triple Rice</td><td>160</td>
+            <tr><td>Chicken Fried Rice</td><td>130</td>
+            <tr><td>Chicken Schezwan Rice</td><td>140</td>
+            <tr><td>Chicken Hong Kong Rice</td><td>160</td>
+            <tr><td>Chicken Singapore Rice</td><td>160</td>
+            <tr><td>Chicken Manchurian Rice</td><td>150</td>
+            <tr><td>Chicken Triple Rice</td><td>180</td>
+            <tr><td>Chicken Chopper Rice</td><td>190</td>
+            <tr><td>Chicken Biryani</td><td>200</td>
+            <tr><td>Chicken Biryani(Boneless)</td><td>220</td>
+            <tr><td>Chicken Pulav</td><td>180</td>
+            <tr><td>Egg Biryani</td><td>160</td>
+            <tr><td>Egg Pulav</td><td>160</td>
+            <tr><td>Prawns Biryani</td><td>250</td>
+            <tr><td>Prawns Pulav</td><td>230</td>
+              <tr><td>Prawns Fried Rice</td><td>200</td>
+              <tr><td>Prawns Schezwan Rice</td><td>200</td>
+              <tr><td>Prawns Triple Rice</td><td>250</td>
+                <tr><td>&nbsp;</td></tr>
+
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table width="90%" border="0" align="center">
+        <tr><th>Noodles</th></tr>
+        <tr><td>Chicken Hakka Noodle</td><td>130</td>
+        <tr><td>Chicken Schezwan Noodle</td><td>140</td>
+        <tr><td>Chicken Hong Kong Noodle</td><td>150</td>
+        <tr><td>Chicken Singapore Noodle</td><td>150</td>
+        <tr><td>Chicken Triple Noodle</td><td>180</td>
+        <tr><td>Chicken Manchurian Noodle</td><td>180</td>
+        <tr><td>Chicken Chopper Noodle</td><td>180</td>
+        <tr><td>Egg Hakka Noodle</td><td>130</td>
+        <tr><td>Egg Schezwan Noodle</td><td>140</td>
+        <tr><td>Egg Triple Noodle</td><td>160</td>
+        <tr><td>Prawns Hakka Noodle</td><td>220</td>
+        <tr><td>Prawns Schezwan Noodle</td><td>220</td>
+        <tr><td>Prawns Triple Noodle</td><td>250</td>
+          <tr><td>&nbsp;</td></tr>
+
+
+          <tr><th width=80%>INDIAN CUISINE</th><th>RATE</th><tr>
+            <tr><td>Chicken Handi</td><td>220</td>
+            <tr><td>Chicken Kadai</td><td>220</td>
+            <tr><td>Chicken Kolhapuri</td><td>220</td>
+            <tr><td>Chicken Makhanwala/Butter Chicken</td><td>210</td>
+            <tr><td>Chicken Masala</td><td>220</td>
+            <tr><td>Chicken Curry</td><td>220</td>
+            <tr><td>Chicken Tikka Masala </td><td>200</td>
+            <tr><td>Chicken Tawa</td><td>220</td>
+            <tr><td>Chicken Sukkha</td><td>220</td>
+            <tr><td>Egg Masala Fry</td><td>140</td>
+            <tr><td>Egg Curry</td><td>140</td>
+            <tr><td>Bhangada Curry</td><td>190</td>
+            <tr><td>Pomfret Curry</td><td>APS</td>
+            <tr><td>Prawns Curry</td><td>APS</td>
+            <tr><td>Prawns Masala</td><td>APS</td>
+
+            <tr><td>&nbsp;</td></tr>
+            <tr><th>BREAKFAST</th></tr>
+            <tr><td>Egg Omlet Pav</td><td>80</td>
+            <tr><td>Egg Bhurji Pav</td><td>80</td>
+            <tr><td>Boiled Egg</td><td>60</td>
+
+              <tr><td>&nbsp;</td></tr>
+              <tr><th>TANDOORI</th></tr>
+              <tr><td>Tandoori Roti</td><td>20</td>
+              <tr><td>Tandoori Butter Roti</td><td>25</td>
+              <tr><td>Chicken Tandoori Half</td><td>230</td>
+              <tr><td>Chicken Tandoori Full</td><td>450</td>
+
+
+          </table>
+        <!--<br>{{ .content | markdownify }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
+        {{ end }}
+        {{ end }}-->
+      </div>
+    </div>
+  <!--  <div class="row counter-box text-center mt-50">
+      {{ range .funfacts }}
+      <div class="col-md-2">
+        <div class="counter-item">
+          <i class="{{ .icon }}"></i>
+          <h4 class="count" data-count="{{ .count }}">0</h4>
+          <span>{{ .name }}</span>
+        </div>
+      </div>
+      {{ end }}
+    </div>-->
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

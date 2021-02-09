@@ -94,7 +94,7 @@ link = "#"
 
 [[params.social]]
 icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.instagram.com/shannonwadi/"
 
 [[params.social]]
 icon = "ion-social-youtube-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -153,6 +153,11 @@ text = "shannonwadi@gmail.com"
       name = "Terms and Policies"
       url = "/terms"
       weight = 6
+
+    [[menu.main]]
+        name = "Food and Beverages"
+        url = "/foodbev"
+        weight = 7
 ######################### english navigation #############################
 # main menu
 # [[Languages.en.menu.main]]
