@@ -10,7 +10,13 @@
 <section class="about section" style="padding:50px 0 0 0">
   <div class="container">
     <div class="row">
-      <h2 align="center">Veg Menu</h2><br>
+      <div class="col-md-6">
+        <img class="img-responsive" alt="Img" src="/menu/menu1.jpg"/>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" alt="Img" src="/menu/menu2.jpg"/>
+      </div>
+<!--      <h2 align="center">Veg Menu</h2><br>
       <div class="col-md-6">
         <table width="90%" border="0" align="center">
           <tr><th width=80%>STARTERS</th><th>RATE</th><tr>
@@ -96,7 +102,7 @@
         {{ with .button }}
         <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
         {{ end }}
-        {{ end }}-->
+        {{ end }}
       </div>
     </div>
     <br>
@@ -212,7 +218,7 @@
         {{ with .button }}
         <a href="{{ .link | relURL }}" class="btn btn-small mt-20">{{ .label }}</a>
         {{ end }}
-        {{ end }}-->
+        {{ end }}
       </div>
     </div>
   <!--  <div class="row counter-box text-center mt-50">
@@ -226,6 +232,7 @@
       </div>
       {{ end }}
     </div>-->
+  </div>
   </div>
 </section>
 {{ end }}
